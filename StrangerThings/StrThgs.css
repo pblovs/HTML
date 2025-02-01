@@ -1,0 +1,66 @@
+.material-icons {
+    font-family: 'Material Icons';
+    font-weight: normal;
+    font-style: normal;
+    font-size: 24px;  /* Preferred icon size */
+    display: inline-block;
+    line-height: 1;
+    text-transform: none;
+    letter-spacing: normal;
+    word-wrap: normal;
+    white-space: nowrap;
+    direction: ltr;
+  
+    /* Support for all WebKit browsers. */
+    -webkit-font-smoothing: antialiased;
+    /* Support for Safari and Chrome. */
+    text-rendering: optimizeLegibility;
+  
+    /* Support for Firefox. */
+    -moz-osx-font-smoothing: grayscale;
+  
+    /* Support for IE. */
+    font-feature-settings: 'liga';
+  }
+
+body{
+    background-color: rgb(3, 17, 59);
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 30px;
+}
+
+header button{
+    background-color: transparent;
+    color: rgb(177, 1, 1);
+    border: none;
+}
+
+header img{
+    width: 200px;
+}
+
+.contenedor{
+    width: 100%;
+    height: 41vh;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+
+.contenedor img{
+    width: 8%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px 0 rgba(20, 20, 20, 0.3);
+    transition: all ease-in-out 0.5s;
+}
+
+.contenedor img:hover{
+    width: 13%;
+    cursor: pointer;
+}
